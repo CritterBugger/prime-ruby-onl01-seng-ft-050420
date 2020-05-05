@@ -3,7 +3,7 @@
 def prime?(num)
   if num < 0 return false
     
-  div = (num/2).Float
+  div = (num/2).round(2)
   
   while div > 1
     if num % div == 0
