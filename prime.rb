@@ -5,5 +5,9 @@ def prime?(num)
   
   while div > 1
     if num % div == 0
+      return false
+    end
   end
+  
+  return true
 end
