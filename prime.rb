@@ -7,6 +7,8 @@ def prime?(num)
     if num % div == 0
       return false
     end
+    
+    div -= 1
   end
   
   return true
