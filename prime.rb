@@ -1,7 +1,7 @@
 # Add  code here!
 
 def prime?(num)
-  return false if num <= 0 
+  return false if num <= 1 
     
   div = (num/2).round
   
