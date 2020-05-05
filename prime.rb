@@ -1,6 +1,8 @@
 # Add  code here!
 
 def prime?(num)
+  if num < 0 return false
+    
   div = (num/2).Float
   
   while div > 1
